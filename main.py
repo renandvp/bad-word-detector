@@ -130,6 +130,7 @@ def main():
     dp.add_handler(MessageHandler(Filters.text, echo))
     updater.start_polling()
     updater.idle()
+    return 'ok'
 
 if __name__ == '__main__':
     main()
